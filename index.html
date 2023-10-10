@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tree Hierarchy</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="controls">
+            <label for="nodeType">Node Type:</label>
+            <select id="nodeType">
+                <option value="single">Single Node</option>
+                <option value="parent">Parent Node</option>
+                <option value="child">Child Node</option>
+            </select>
+            <label for="nodeValue">Node Value:</label>
+            <input type="text" id="nodeValue" placeholder="Enter Node Value" />
+            <button id="createNode">Create Node</button>
+        </div>
+        <div class="tree" id="tree">
+            <!-- Tree nodes will be generated here -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
